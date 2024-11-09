@@ -1,0 +1,156 @@
+.container {
+  font-family: "Noto Sans", sans-serif;
+  max-width: 1200px;
+  width: 100%;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #FF69B4;
+  display: flex;
+  justify-content: flex-end;
+  height: 100px;
+}
+
+h1 {
+  color: white;
+  margin-right: 180px;
+  margin-top: 30px;
+}
+
+h2 {
+  color: white;
+  margin-left: 30px;
+  margin-top: 40px;
+  margin-right: 50px;
+}
+
+main {
+  background-color: pink;
+  margin: 0px;
+}
+
+.conteudo1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.artigo1 {
+  flex: 1;
+  max-width: 50%;
+  padding-right: 20px;
+}
+
+.p1 {
+  margin-left: 80px;
+  font-size: 25px;
+  line-height: 34px;
+  word-wrap: break-word;
+}
+
+.img1 {
+  flex: 1;
+  width: 50%;
+  max-width: 365px;
+  height: auto;
+  max-height: 350px;
+}
+
+.conteudo2 {
+  background-color: #FF69B4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.artigo2 {
+  flex: 1;
+  max-width: 50%;
+  padding-right: 20px;
+}
+
+.p2 {
+  color: white;
+  margin-left: 80px;
+  font-size: 25px;
+  line-height: 34px;
+  word-wrap: break-word;
+}
+
+.img2 {
+  flex: 1;
+  max-width: 421px;
+  max-height: 234px;
+}
+
+.conteudo3 {
+  background-color: pink;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.artigo3 {
+  flex: 1;
+  max-width: 50%;
+  padding-right: 20px;
+}
+
+.p3 {
+  color: white;
+  margin-left: 80px;
+  font-size: 2rem;
+  line-height: 1.5;
+  word-wrap: break-word;
+}
+
+.img3 {
+  flex: 1;
+  max-width: 200px;
+  max-height: 200px;
+}
+
+footer {
+  background-color: #FF69B4;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.footere {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex: 1;
+}
+
+.footere img {
+  margin-left: 20px;
+  width: 50px;
+  height: auto;
+}
+
+.footerc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  text-align: center;
+}
+
+.footerc ul {
+  color: white;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}/*# sourceMappingURL=style.css.map */
